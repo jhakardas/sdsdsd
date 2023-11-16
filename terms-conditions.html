@@ -1,0 +1,630 @@
+﻿
+<input name="__RequestVerificationToken" type="hidden" value="q6fh95CvEPGABSU3vffbxZHk-00UJYY28xocggP-jPEsGLoUe8JNoeYwioBayieTuLvJOJ_bCwxIxtLParbWzlh7nOLxRgsK-CPSa4U6p6g1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title inertia="">Canadian Flights | Flightofox INC</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="lYQzRTQouC06JUGscP52OoUbSI3PVsoYrVqwZA7Y">
+    <link rel="stylesheet" href="css2?family=Nunito:wght@400;600;700&amp;display=swap">
+    <!-- Styles -->
+    <link rel="stylesheet" href="Content/Assets/css/app.css">
+    <link rel="icon" type="image/png" href="Content/Assets/images/tourexo-mini-logo.png">
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="Content/Assets/front/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Content/Assets/front/css/line-awesome.css">
+    <link rel="stylesheet" href="Content/Assets/front/css/style.css">
+    <link rel="stylesheet" href="Content/Assets/front/css/develop.css">
+    <!-- Scripts -->
+    <link href="Content/Assets/css/tourex.css" rel="stylesheet">
+    <link href="Content/Assets/css/datepicker.min.css" rel="stylesheet">
+    <script src="Content/Assets/js/jquery.min.js"></script>
+    <script src="Content/Assets/js/jquery-ui.js"></script>
+    <script type="text/javascript">
+        var Ziggy = { "url": "https:\/\/tourexo.com", "port": null, "defaults": {}, "routes": { "search-page": { "uri": "search-page", "methods": ["GET", "HEAD"] }, "dashboard": { "uri": "dashboard", "methods": ["GET", "HEAD"] }, "header-setting": { "uri": "header-setting", "methods": ["GET", "HEAD"] }, "footer-setting": { "uri": "footer-setting", "methods": ["GET", "HEAD"] }, "get-airport-list": { "uri": "get-airport-list\/{search}", "methods": ["GET", "HEAD"] }, "get-airport-list-db": { "uri": "get-airport-list-db\/{search}", "methods": ["GET", "HEAD"] }, "import-airports": { "uri": "import_airports", "methods": ["GET", "HEAD"] }, "search-flights": { "uri": "search-flights", "methods": ["GET", "HEAD"] }, "save-recent-search": { "uri": "save-recent-search", "methods": ["POST"] }, "register": { "uri": "register", "methods": ["GET", "HEAD"] }, "login": { "uri": "login", "methods": ["GET", "HEAD"] }, "password.request": { "uri": "forgot-password", "methods": ["GET", "HEAD"] }, "password.email": { "uri": "forgot-password", "methods": ["POST"] }, "password.reset": { "uri": "reset-password\/{token}", "methods": ["GET", "HEAD"] }, "password.update": { "uri": "reset-password", "methods": ["POST"] }, "verification.notice": { "uri": "verify-email", "methods": ["GET", "HEAD"] }, "verification.verify": { "uri": "verify-email\/{id}\/{hash}", "methods": ["GET", "HEAD"] }, "verification.send": { "uri": "email\/verification-notification", "methods": ["POST"] }, "password.confirm": { "uri": "confirm-password", "methods": ["GET", "HEAD"] }, "logout": { "uri": "logout", "methods": ["POST"] }, "adminpanel.login": { "uri": "adminpanel\/login", "methods": ["GET", "HEAD"] }, "adminpanel.login_complete": { "uri": "adminpanel\/login", "methods": ["POST"] }, "adminpanel.dashboard": { "uri": "adminpanel\/dashboard", "methods": ["GET", "HEAD"] }, "adminpanel.logout": { "uri": "adminpanel\/logout", "methods": ["GET", "HEAD"] }, "adminpanel.platform-settings.edit": { "uri": "adminpanel\/platform-settings", "methods": ["GET", "HEAD"] }, "adminpanel.platform-settings.update": { "uri": "adminpanel\/platform-settings", "methods": ["PUT"] }, "adminpanel.emailtemplates.index": { "uri": "adminpanel\/emailtemplates", "methods": ["GET", "HEAD"] }, "adminpanel.emailtemplates.create": { "uri": "adminpanel\/emailtemplates\/create", "methods": ["GET", "HEAD"] }, "adminpanel.emailtemplates.store": { "uri": "adminpanel\/emailtemplates", "methods": ["POST"] }, "adminpanel.emailtemplates.show": { "uri": "adminpanel\/emailtemplates\/{emailtemplate}", "methods": ["GET", "HEAD"] }, "adminpanel.emailtemplates.edit": { "uri": "adminpanel\/emailtemplates\/{emailtemplate}\/edit", "methods": ["GET", "HEAD"], "bindings": { "emailtemplate": "id" } }, "adminpanel.emailtemplates.update": { "uri": "adminpanel\/emailtemplates\/{emailtemplate}", "methods": ["PUT", "PATCH"], "bindings": { "emailtemplate": "id" } }, "adminpanel.emailtemplates.destroy": { "uri": "adminpanel\/emailtemplates\/{emailtemplate}", "methods": ["DELETE"] }, "adminpanel.pages.index": { "uri": "adminpanel\/pages", "methods": ["GET", "HEAD"] }, "adminpanel.pages.create": { "uri": "adminpanel\/pages\/create", "methods": ["GET", "HEAD"] }, "adminpanel.pages.store": { "uri": "adminpanel\/pages", "methods": ["POST"] }, "adminpanel.pages.show": { "uri": "adminpanel\/pages\/{page}", "methods": ["GET", "HEAD"] }, "adminpanel.pages.edit": { "uri": "adminpanel\/pages\/{page}\/edit", "methods": ["GET", "HEAD"], "bindings": { "page": "id" } }, "adminpanel.pages.update": { "uri": "adminpanel\/pages\/{page}", "methods": ["PUT", "PATCH"], "bindings": { "page": "id" } }, "adminpanel.pages.destroy": { "uri": "adminpanel\/pages\/{page}", "methods": ["DELETE"] }, "adminpanel.page.home": { "uri": "adminpanel\/page-home", "methods": ["GET", "HEAD"] }, "adminpanel.page.home_update": { "uri": "adminpanel\/page-home", "methods": ["PUT"] } } };
+
+        !function (t, r) { "object" == typeof exports && "undefined" != typeof module ? module.exports = r() : "function" == typeof define && define.amd ? define(r) : (t || self).route = r() }(this, function () { function t(t, r) { for (var e = 0; e < r.length; e++) { var n = r[e]; n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(t, n.key, n) } } function r(r, e, n) { return e && t(r.prototype, e), n && t(r, n), Object.defineProperty(r, "prototype", { writable: !1 }), r } function e() { return e = Object.assign || function (t) { for (var r = 1; r < arguments.length; r++) { var e = arguments[r]; for (var n in e) Object.prototype.hasOwnProperty.call(e, n) && (t[n] = e[n]) } return t }, e.apply(this, arguments) } function n(t) { return n = Object.setPrototypeOf ? Object.getPrototypeOf : function (t) { return t.__proto__ || Object.getPrototypeOf(t) }, n(t) } function o(t, r) { return o = Object.setPrototypeOf || function (t, r) { return t.__proto__ = r, t }, o(t, r) } function i() { if ("undefined" == typeof Reflect || !Reflect.construct) return !1; if (Reflect.construct.sham) return !1; if ("function" == typeof Proxy) return !0; try { return Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () { })), !0 } catch (t) { return !1 } } function u(t, r, e) { return u = i() ? Reflect.construct : function (t, r, e) { var n = [null]; n.push.apply(n, r); var i = new (Function.bind.apply(t, n)); return e && o(i, e.prototype), i }, u.apply(null, arguments) } function f(t) { var r = "function" == typeof Map ? new Map : void 0; return f = function (t) { if (null === t || -1 === Function.toString.call(t).indexOf("[native code]")) return t; if ("function" != typeof t) throw new TypeError("Super expression must either be null or a function"); if (void 0 !== r) { if (r.has(t)) return r.get(t); r.set(t, e) } function e() { return u(t, arguments, n(this).constructor) } return e.prototype = Object.create(t.prototype, { constructor: { value: e, enumerable: !1, writable: !0, configurable: !0 } }), o(e, t) }, f(t) } var a = String.prototype.replace, c = /%20/g, l = "RFC3986", s = { default: l, formatters: { RFC1738: function (t) { return a.call(t, c, "+") }, RFC3986: function (t) { return String(t) } }, RFC1738: "RFC1738", RFC3986: l }, p = Object.prototype.hasOwnProperty, v = Array.isArray, y = function () { for (var t = [], r = 0; r < 256; ++r) t.push("%" + ((r < 16 ? "0" : "") + r.toString(16)).toUpperCase()); return t }(), d = function (t, r) { for (var e = r && r.plainObjects ? Object.create(null) : {}, n = 0; n < t.length; ++n) void 0 !== t[n] && (e[n] = t[n]); return e }, b = { arrayToObject: d, assign: function (t, r) { return Object.keys(r).reduce(function (t, e) { return t[e] = r[e], t }, t) }, combine: function (t, r) { return [].concat(t, r) }, compact: function (t) { for (var r = [{ obj: { o: t }, prop: "o" }], e = [], n = 0; n < r.length; ++n) for (var o = r[n], i = o.obj[o.prop], u = Object.keys(i), f = 0; f < u.length; ++f) { var a = u[f], c = i[a]; "object" == typeof c && null !== c && -1 === e.indexOf(c) && (r.push({ obj: i, prop: a }), e.push(c)) } return function (t) { for (; t.length > 1;) { var r = t.pop(), e = r.obj[r.prop]; if (v(e)) { for (var n = [], o = 0; o < e.length; ++o) void 0 !== e[o] && n.push(e[o]); r.obj[r.prop] = n } } }(r), t }, decode: function (t, r, e) { var n = t.replace(/\+/g, " "); if ("iso-8859-1" === e) return n.replace(/%[0-9a-f]{2}/gi, unescape); try { return decodeURIComponent(n) } catch (t) { return n } }, encode: function (t, r, e, n, o) { if (0 === t.length) return t; var i = t; if ("symbol" == typeof t ? i = Symbol.prototype.toString.call(t) : "string" != typeof t && (i = String(t)), "iso-8859-1" === e) return escape(i).replace(/%u[0-9a-f]{4}/gi, function (t) { return "%26%23" + parseInt(t.slice(2), 16) + "%3B" }); for (var u = "", f = 0; f < i.length; ++f) { var a = i.charCodeAt(f); 45 === a || 46 === a || 95 === a || 126 === a || a >= 48 && a <= 57 || a >= 65 && a <= 90 || a >= 97 && a <= 122 || o === s.RFC1738 && (40 === a || 41 === a) ? u += i.charAt(f) : a < 128 ? u += y[a] : a < 2048 ? u += y[192 | a >> 6] + y[128 | 63 & a] : a < 55296 || a >= 57344 ? u += y[224 | a >> 12] + y[128 | a >> 6 & 63] + y[128 | 63 & a] : (a = 65536 + ((1023 & a) << 10 | 1023 & i.charCodeAt(f += 1)), u += y[240 | a >> 18] + y[128 | a >> 12 & 63] + y[128 | a >> 6 & 63] + y[128 | 63 & a]) } return u }, isBuffer: function (t) { return !(!t || "object" != typeof t || !(t.constructor && t.constructor.isBuffer && t.constructor.isBuffer(t))) }, isRegExp: function (t) { return "[object RegExp]" === Object.prototype.toString.call(t) }, maybeMap: function (t, r) { if (v(t)) { for (var e = [], n = 0; n < t.length; n += 1) e.push(r(t[n])); return e } return r(t) }, merge: function t(r, e, n) { if (!e) return r; if ("object" != typeof e) { if (v(r)) r.push(e); else { if (!r || "object" != typeof r) return [r, e]; (n && (n.plainObjects || n.allowPrototypes) || !p.call(Object.prototype, e)) && (r[e] = !0) } return r } if (!r || "object" != typeof r) return [r].concat(e); var o = r; return v(r) && !v(e) && (o = d(r, n)), v(r) && v(e) ? (e.forEach(function (e, o) { if (p.call(r, o)) { var i = r[o]; i && "object" == typeof i && e && "object" == typeof e ? r[o] = t(i, e, n) : r.push(e) } else r[o] = e }), r) : Object.keys(e).reduce(function (r, o) { var i = e[o]; return r[o] = p.call(r, o) ? t(r[o], i, n) : i, r }, o) } }, h = Object.prototype.hasOwnProperty, m = { brackets: function (t) { return t + "[]" }, comma: "comma", indices: function (t, r) { return t + "[" + r + "]" }, repeat: function (t) { return t } }, g = Array.isArray, j = String.prototype.split, w = Array.prototype.push, O = function (t, r) { w.apply(t, g(r) ? r : [r]) }, E = Date.prototype.toISOString, R = s.default, S = { addQueryPrefix: !1, allowDots: !1, charset: "utf-8", charsetSentinel: !1, delimiter: "&", encode: !0, encoder: b.encode, encodeValuesOnly: !1, format: R, formatter: s.formatters[R], indices: !1, serializeDate: function (t) { return E.call(t) }, skipNulls: !1, strictNullHandling: !1 }, T = function t(r, e, n, o, i, u, f, a, c, l, s, p, v, y) { var d, h = r; if ("function" == typeof f ? h = f(e, h) : h instanceof Date ? h = l(h) : "comma" === n && g(h) && (h = b.maybeMap(h, function (t) { return t instanceof Date ? l(t) : t })), null === h) { if (o) return u && !v ? u(e, S.encoder, y, "key", s) : e; h = "" } if ("string" == typeof (d = h) || "number" == typeof d || "boolean" == typeof d || "symbol" == typeof d || "bigint" == typeof d || b.isBuffer(h)) { if (u) { var m = v ? e : u(e, S.encoder, y, "key", s); if ("comma" === n && v) { for (var w = j.call(String(h), ","), E = "", R = 0; R < w.length; ++R) E += (0 === R ? "" : ",") + p(u(w[R], S.encoder, y, "value", s)); return [p(m) + "=" + E] } return [p(m) + "=" + p(u(h, S.encoder, y, "value", s))] } return [p(e) + "=" + p(String(h))] } var T, k = []; if (void 0 === h) return k; if ("comma" === n && g(h)) T = [{ value: h.length > 0 ? h.join(",") || null : void 0 }]; else if (g(f)) T = f; else { var x = Object.keys(h); T = a ? x.sort(a) : x } for (var N = 0; N < T.length; ++N) { var C = T[N], D = "object" == typeof C && void 0 !== C.value ? C.value : h[C]; if (!i || null !== D) { var F = g(h) ? "function" == typeof n ? n(e, C) : e : e + (c ? "." + C : "[" + C + "]"); O(k, t(D, F, n, o, i, u, f, a, c, l, s, p, v, y)) } } return k }, k = Object.prototype.hasOwnProperty, x = Array.isArray, N = { allowDots: !1, allowPrototypes: !1, arrayLimit: 20, charset: "utf-8", charsetSentinel: !1, comma: !1, decoder: b.decode, delimiter: "&", depth: 5, ignoreQueryPrefix: !1, interpretNumericEntities: !1, parameterLimit: 1e3, parseArrays: !0, plainObjects: !1, strictNullHandling: !1 }, C = function (t) { return t.replace(/&#(\d+);/g, function (t, r) { return String.fromCharCode(parseInt(r, 10)) }) }, D = function (t, r) { return t && "string" == typeof t && r.comma && t.indexOf(",") > -1 ? t.split(",") : t }, F = function (t, r, e, n) { if (t) { var o = e.allowDots ? t.replace(/\.([^.[]+)/g, "[$1]") : t, i = /(\[[^[\]]*])/g, u = e.depth > 0 && /(\[[^[\]]*])/.exec(o), f = u ? o.slice(0, u.index) : o, a = []; if (f) { if (!e.plainObjects && k.call(Object.prototype, f) && !e.allowPrototypes) return; a.push(f) } for (var c = 0; e.depth > 0 && null !== (u = i.exec(o)) && c < e.depth;) { if (c += 1, !e.plainObjects && k.call(Object.prototype, u[1].slice(1, -1)) && !e.allowPrototypes) return; a.push(u[1]) } return u && a.push("[" + o.slice(u.index) + "]"), function (t, r, e, n) { for (var o = n ? r : D(r, e), i = t.length - 1; i >= 0; --i) { var u, f = t[i]; if ("[]" === f && e.parseArrays) u = [].concat(o); else { u = e.plainObjects ? Object.create(null) : {}; var a = "[" === f.charAt(0) && "]" === f.charAt(f.length - 1) ? f.slice(1, -1) : f, c = parseInt(a, 10); e.parseArrays || "" !== a ? !isNaN(c) && f !== a && String(c) === a && c >= 0 && e.parseArrays && c <= e.arrayLimit ? (u = [])[c] = o : "__proto__" !== a && (u[a] = o) : u = { 0: o } } o = u } return o }(a, r, e, n) } }, A = function (t, r) { var e = function (t) { if (!t) return N; if (null != t.decoder && "function" != typeof t.decoder) throw new TypeError("Decoder has to be a function."); if (void 0 !== t.charset && "utf-8" !== t.charset && "iso-8859-1" !== t.charset) throw new TypeError("The charset option must be either utf-8, iso-8859-1, or undefined"); return { allowDots: void 0 === t.allowDots ? N.allowDots : !!t.allowDots, allowPrototypes: "boolean" == typeof t.allowPrototypes ? t.allowPrototypes : N.allowPrototypes, arrayLimit: "number" == typeof t.arrayLimit ? t.arrayLimit : N.arrayLimit, charset: void 0 === t.charset ? N.charset : t.charset, charsetSentinel: "boolean" == typeof t.charsetSentinel ? t.charsetSentinel : N.charsetSentinel, comma: "boolean" == typeof t.comma ? t.comma : N.comma, decoder: "function" == typeof t.decoder ? t.decoder : N.decoder, delimiter: "string" == typeof t.delimiter || b.isRegExp(t.delimiter) ? t.delimiter : N.delimiter, depth: "number" == typeof t.depth || !1 === t.depth ? +t.depth : N.depth, ignoreQueryPrefix: !0 === t.ignoreQueryPrefix, interpretNumericEntities: "boolean" == typeof t.interpretNumericEntities ? t.interpretNumericEntities : N.interpretNumericEntities, parameterLimit: "number" == typeof t.parameterLimit ? t.parameterLimit : N.parameterLimit, parseArrays: !1 !== t.parseArrays, plainObjects: "boolean" == typeof t.plainObjects ? t.plainObjects : N.plainObjects, strictNullHandling: "boolean" == typeof t.strictNullHandling ? t.strictNullHandling : N.strictNullHandling } }(r); if ("" === t || null == t) return e.plainObjects ? Object.create(null) : {}; for (var n = "string" == typeof t ? function (t, r) { var e, n = {}, o = (r.ignoreQueryPrefix ? t.replace(/^\?/, "") : t).split(r.delimiter, Infinity === r.parameterLimit ? void 0 : r.parameterLimit), i = -1, u = r.charset; if (r.charsetSentinel) for (e = 0; e < o.length; ++e) 0 === o[e].indexOf("utf8=") && ("utf8=%E2%9C%93" === o[e] ? u = "utf-8" : "utf8=%26%2310003%3B" === o[e] && (u = "iso-8859-1"), i = e, e = o.length); for (e = 0; e < o.length; ++e) if (e !== i) { var f, a, c = o[e], l = c.indexOf("]="), s = -1 === l ? c.indexOf("=") : l + 1; -1 === s ? (f = r.decoder(c, N.decoder, u, "key"), a = r.strictNullHandling ? null : "") : (f = r.decoder(c.slice(0, s), N.decoder, u, "key"), a = b.maybeMap(D(c.slice(s + 1), r), function (t) { return r.decoder(t, N.decoder, u, "value") })), a && r.interpretNumericEntities && "iso-8859-1" === u && (a = C(a)), c.indexOf("[]=") > -1 && (a = x(a) ? [a] : a), n[f] = k.call(n, f) ? b.combine(n[f], a) : a } return n }(t, e) : t, o = e.plainObjects ? Object.create(null) : {}, i = Object.keys(n), u = 0; u < i.length; ++u) { var f = i[u], a = F(f, n[f], e, "string" == typeof t); o = b.merge(o, a, e) } return b.compact(o) }, P =/*#__PURE__*/function () { function t(t, r, e) { var n, o; this.name = t, this.definition = r, this.bindings = null != (n = r.bindings) ? n : {}, this.wheres = null != (o = r.wheres) ? o : {}, this.config = e } var e = t.prototype; return e.matchesUrl = function (t) { var r = this; if (!this.definition.methods.includes("GET")) return !1; var e = this.template.replace(/(\/?){([^}?]*)(\??)}/g, function (t, e, n, o) { var i = "(?<" + n + ">" + (r.wheres[n] || "[^/?]+") + ")"; return o ? "(" + e + i + ")?" : "" + e + i }).replace(/^\w+:\/\//, ""), n = t.replace(/^\w+:\/\//, "").split("?"), o = n[0], i = n[1], u = new RegExp("^" + e + "/?$").exec(o); return !!u && { params: u.groups, query: A(i) } }, e.compile = function (t) { var r = this, e = this.parameterSegments; return e.length ? this.template.replace(/{([^}?]+)(\??)}/g, function (n, o, i) { var u, f, a; if (!i && [null, void 0].includes(t[o])) throw new Error("Ziggy error: '" + o + "' parameter is required for route '" + r.name + "'."); if (e[e.length - 1].name === o && ".*" === r.wheres[o]) return encodeURIComponent(null != (a = t[o]) ? a : "").replaceAll("%2F", "index.html"); if (r.wheres[o] && !new RegExp("^" + (i ? "(" + r.wheres[o] + ")?" : r.wheres[o]) + "$").test(null != (u = t[o]) ? u : "")) throw new Error("Ziggy error: '" + o + "' parameter does not match required format '" + r.wheres[o] + "' for route '" + r.name + "'."); return encodeURIComponent(null != (f = t[o]) ? f : "") }).replace(/\/+$/, "") : this.template }, r(t, [{ key: "template", get: function () { return ((this.config.absolute ? this.definition.domain ? "" + this.config.url.match(/^\w+:\/\//)[0] + this.definition.domain + (this.config.port ? ":" + this.config.port : "") : this.config.url : "") + "/" + this.definition.uri).replace(/\/+$/, "") } }, { key: "parameterSegments", get: function () { var t, r; return null != (t = null == (r = this.template.match(/{[^}?]+\??}/g)) ? void 0 : r.map(function (t) { return { name: t.replace(/{|\??}/g, ""), required: !/\?}$/.test(t) } })) ? t : [] } }]), t }(), I =/*#__PURE__*/function (t) { var n, i; function u(r, n, o, i) { var u; if (void 0 === o && (o = !0), (u = t.call(this) || this).t = null != i ? i : "undefined" != typeof Ziggy ? Ziggy : null == globalThis ? void 0 : globalThis.Ziggy, u.t = e({}, u.t, { absolute: o }), r) { if (!u.t.routes[r]) throw new Error("Ziggy error: route '" + r + "' is not in the route list."); u.i = new P(r, u.t.routes[r], u.t), u.u = u.l(n) } return u } i = t, (n = u).prototype = Object.create(i.prototype), n.prototype.constructor = n, o(n, i); var f = u.prototype; return f.toString = function () { var t = this, r = Object.keys(this.u).filter(function (r) { return !t.i.parameterSegments.some(function (t) { return t.name === r }) }).filter(function (t) { return "_query" !== t }).reduce(function (r, n) { var o; return e({}, r, ((o = {})[n] = t.u[n], o)) }, {}); return this.i.compile(this.u) + function (t, r) { var e, n = t, o = function (t) { if (!t) return S; if (null != t.encoder && "function" != typeof t.encoder) throw new TypeError("Encoder has to be a function."); var r = t.charset || S.charset; if (void 0 !== t.charset && "utf-8" !== t.charset && "iso-8859-1" !== t.charset) throw new TypeError("The charset option must be either utf-8, iso-8859-1, or undefined"); var e = s.default; if (void 0 !== t.format) { if (!h.call(s.formatters, t.format)) throw new TypeError("Unknown format option provided."); e = t.format } var n = s.formatters[e], o = S.filter; return ("function" == typeof t.filter || g(t.filter)) && (o = t.filter), { addQueryPrefix: "boolean" == typeof t.addQueryPrefix ? t.addQueryPrefix : S.addQueryPrefix, allowDots: void 0 === t.allowDots ? S.allowDots : !!t.allowDots, charset: r, charsetSentinel: "boolean" == typeof t.charsetSentinel ? t.charsetSentinel : S.charsetSentinel, delimiter: void 0 === t.delimiter ? S.delimiter : t.delimiter, encode: "boolean" == typeof t.encode ? t.encode : S.encode, encoder: "function" == typeof t.encoder ? t.encoder : S.encoder, encodeValuesOnly: "boolean" == typeof t.encodeValuesOnly ? t.encodeValuesOnly : S.encodeValuesOnly, filter: o, format: e, formatter: n, serializeDate: "function" == typeof t.serializeDate ? t.serializeDate : S.serializeDate, skipNulls: "boolean" == typeof t.skipNulls ? t.skipNulls : S.skipNulls, sort: "function" == typeof t.sort ? t.sort : null, strictNullHandling: "boolean" == typeof t.strictNullHandling ? t.strictNullHandling : S.strictNullHandling } }(r); "function" == typeof o.filter ? n = (0, o.filter)("", n) : g(o.filter) && (e = o.filter); var i = []; if ("object" != typeof n || null === n) return ""; var u = m[r && r.arrayFormat in m ? r.arrayFormat : r && "indices" in r ? r.indices ? "indices" : "repeat" : "indices"]; e || (e = Object.keys(n)), o.sort && e.sort(o.sort); for (var f = 0; f < e.length; ++f) { var a = e[f]; o.skipNulls && null === n[a] || O(i, T(n[a], a, u, o.strictNullHandling, o.skipNulls, o.encode ? o.encoder : null, o.filter, o.sort, o.allowDots, o.serializeDate, o.format, o.formatter, o.encodeValuesOnly, o.charset)) } var c = i.join(o.delimiter), l = !0 === o.addQueryPrefix ? "?" : ""; return o.charsetSentinel && (l += "iso-8859-1" === o.charset ? "utf8=%26%2310003%3B&" : "utf8=%E2%9C%93&"), c.length > 0 ? l + c : "" }(e({}, r, this.u._query), { addQueryPrefix: !0, arrayFormat: "indices", encodeValuesOnly: !0, skipNulls: !0, encoder: function (t, r) { return "boolean" == typeof t ? Number(t) : r(t) } }) }, f.p = function (t) { var r = this; t ? this.t.absolute && t.startsWith("index.html") && (t = this.v().host + t) : t = this.h(); var n = {}, o = Object.entries(this.t.routes).find(function (e) { return n = new P(e[0], e[1], r.t).matchesUrl(t) }) || [void 0, void 0]; return e({ name: o[0] }, n, { route: o[1] }) }, f.h = function () { var t = this.v(), r = t.pathname, e = t.search; return (this.t.absolute ? t.host + r : r.replace(this.t.url.replace(/^\w*:\/\/[^/]+/, ""), "").replace(/^\/+/, "/")) + e }, f.current = function (t, r) { var n = this.p(), o = n.name, i = n.params, u = n.query, f = n.route; if (e({}, i, u), !t) return o; var a = new RegExp("^" + t.replace(/\./g, "\\.").replace(/\*/g, ".*") + "$").test(o); if ([null, void 0].includes(r) || !a) return a; var c = new P(o, f, this.t); r = this.l(r, c); var l = e({}, i, u); return Object.keys(l).forEach(function (t) { return void 0 === l[t] && delete l[t] }), !(!Object.values(r).every(function (t) { return !t }) || Object.values(l).length) || Object.entries(r).every(function (t) { return l[t[0]] == t[1] }) }, f.v = function () { var t, r, e, n, o, i, u = "undefined" != typeof window ? window.location : {}, f = u.host, a = u.pathname, c = u.search; return { host: null != (t = null == (r = this.t.location) ? void 0 : r.host) ? t : void 0 === f ? "" : f, pathname: null != (e = null == (n = this.t.location) ? void 0 : n.pathname) ? e : void 0 === a ? "" : a, search: null != (o = null == (i = this.t.location) ? void 0 : i.search) ? o : void 0 === c ? "" : c } }, f.has = function (t) { return Object.keys(this.t.routes).includes(t) }, f.l = function (t, r) { var n = this; void 0 === t && (t = {}), void 0 === r && (r = this.i), t = ["string", "number"].includes(typeof t) ? [t] : t; var o = r.parameterSegments.filter(function (t) { return !n.t.defaults[t.name] }); if (Array.isArray(t)) t = t.reduce(function (t, r, n) { var i, u; return e({}, t, o[n] ? ((i = {})[o[n].name] = r, i) : "object" == typeof r ? r : ((u = {})[r] = "", u)) }, {}); else if (1 === o.length && !t[o[0].name] && (t.hasOwnProperty(Object.values(r.bindings)[0]) || t.hasOwnProperty("id"))) { var i; (i = {})[o[0].name] = t, t = i } return e({}, this.m(r), this.g(t, r)) }, f.m = function (t) { var r = this; return t.parameterSegments.filter(function (t) { return r.t.defaults[t.name] }).reduce(function (t, n, o) { var i, u = n.name; return e({}, t, ((i = {})[u] = r.t.defaults[u], i)) }, {}) }, f.g = function (t, r) { var n = r.bindings, o = r.parameterSegments; return Object.entries(t).reduce(function (t, r) { var i, u, f = r[0], a = r[1]; if (!a || "object" != typeof a || Array.isArray(a) || !o.some(function (t) { return t.name === f })) return e({}, t, ((u = {})[f] = a, u)); if (!a.hasOwnProperty(n[f])) { if (!a.hasOwnProperty("id")) throw new Error("Ziggy error: object passed as '" + f + "' parameter is missing route model binding key '" + n[f] + "'."); n[f] = "id" } return e({}, t, ((i = {})[f] = a[n[f]], i)) }, {}) }, f.valueOf = function () { return this.toString() }, f.check = function (t) { return this.has(t) }, r(u, [{ key: "params", get: function () { var t = this.p(); return e({}, t.params, t.query) } }]), u }(/*#__PURE__*/f(String)); return function (t, r, e, n) { var o = new I(t, r, e, n); return t ? o.toString() : o } });
+
+    </script>
+    <!-- Default Statcounter code for TOUREXO
+    https://www.tourexo.com/ -->
+    <script type="application/javascript">
+        var sc_project = 12729094;
+        var sc_invisible = 1;
+        var sc_security = "73064710";
+    </script>
+    
+    <script src="Content/Assets/counter/counter.js"></script>
+    <script src="Content/Assets/js/tourexo-app.js"></script>
+    <noscript>
+        <div class="statcounter">
+            <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
+                <img class="statcounter" src="12729094/0/73064710/1/index.htm" alt="Web Analytics" referrerpolicy="no-referrer-when-downgrade">
+            </a>
+        </div>
+    </noscript>
+    
+    <style>
+        .overlay {
+            background-color: #ffffffeb;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            top: 0px;
+            left: 0px;
+            display: none;
+            padding-top: 200px;
+            text-align: -webkit-center;
+        }
+    </style>
+
+    <script>
+        function Loader() {
+            if ($(".overlay").css('display') == 'none') {
+                $(".overlay").css('display', 'block');
+            }
+            else {
+                $(".overlay").css('display', 'none');
+            }
+        }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Ads: 10967932186 -->
+    <script async="" src="gtag/js-1?id=AW-10967932186"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10967932186');
+    </script>
+   <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/636ac9a1daff0e1306d66e09/1ghci78kn';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</head>
+<body class="font-sans antialiased">
+    <div class="overlay">
+        <div>
+            <div>
+                <h3>Flight-O-fox find you a flight!</h3>
+                <img src="Content/Assets/images/flight-loading.gif" width="100"><br>
+            </div>
+            <div>
+                <h2 id="lblFind"></h2>
+                <h4 id="lblFindDate"></h4>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3"></div>
+                    <hr>
+                    <p>
+                        Unpublished rates may save you <b style="color: red">BIG</b> on this route.<br>
+                        Calling this provider before booking is recommended.
+                    </p>
+                    <hr>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-6">
+                            <div class="author-content d-flex align-items-center">
+                                <div class="author-img" style="width: 60px; height: 60px;">
+                                    <img src="Content/Assets/images/flight-booking-call.jpg" alt="testimonial image">
+                                </div>
+                                <ul style="text-align: left; background: green; color: white; padding: 10px;">
+                                    <li>+1-888-864-3033</li>
+                                    <li>CALL TOLL FREE NOW</li>
+                                </ul>
+                                
+                                <ul style="text-align: left; margin-left: 5px;">
+                                    <li>Call Waiting Time: <b style="color: green">Near Zero</b></li>
+                                    <li>All AI-Line Providers</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="app" data-page="{&quot;component&quot;:&quot;Home&quot;,&quot;props&quot;:{&quot;errors&quot;:{},&quot;auth&quot;:{&quot;user&quot;:null}},&quot;url&quot;:&quot;\/&quot;,&quot;version&quot;:&quot;207fd484b7c2ceeff7800b8c8a11b3b6&quot;}" data-v-app="">
+        <div>
+            <div>
+                <header class="header-area">
+                    <div class="header-menu-wrapper padding-right-100px padding-left-100px">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="menu-wrapper">
+                                        <a href="#" class="down-button"><i class="la la-angle-down"></i></a>
+                                        <div class="logo">
+                                            <a href="index.htm">
+                                                <img src="Content/Assets/images/logoflight.png" alt="logo" width="175">
+                                            </a>
+                                            <div class="menu-toggler">
+                                                <i class="la la-bars"></i><i class="la la-times"></i>
+                                            </div>
+                                            <!-- end menu-toggler -->
+                                        </div>
+                                        <!-- end logo -->
+                                        <div class="main-menu-content">
+                                            <nav>
+                                                <ul>
+                                                    <li><a href="index.htm">Home</a></li>
+                                                    <li><a href="about-us.html">About Us</a></li>
+                                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                                    <li class="nav-item contact-item hZytXO">
+                                                        <a href="tel:+18888643033">
+                                                            <div class="header-contact-img">
+                                                                <svg width="128" height="128" viewbox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M86.1999 6C66.4999 6 50.3999 22 50.3999 41.8C50.3999 49.2 52.5999 56 56.3999 61.7L50.3999 79.6L71.3999 74.4C75.8999 76.5 80.8999 77.6 86.1999 77.6C106 77.6 122 61.6 122 41.8C122 22 106 6 86.1999 6Z" fill="#ECC6C3"></path>
+                                                                    <path d="M86 69C100.912 69 113 56.9117 113 42C113 27.0883 100.912 15 86 15C71.0883 15 59 27.0883 59 42C59 56.9117 71.0883 69 86 69Z" fill="white"></path>
+                                                                    <path d="M67.6999 96.7001C67.3999 97.4001 66.9999 98.1001 66.6999 98.8001C65.8999 100.6 65.2 100.3 63 100.3C53.1 100.4 27.9 75.3001 28.2 65.5001C28.3 63.4001 27.9 62.7001 29.7 61.8001C30.7 61.3001 31.7 60.9001 32.7 60.4001C34 59.7001 26.6 24.5001 25.2 24.6001C15.4 24.9001 5.19995 32.4001 5.19995 52.2001C5.19995 79.4001 43.3 123.3 76.3 123.3C95 123.3 102.7 114.2 103.8 105C104.1 103.1 68.4999 95.1001 67.6999 96.7001Z" fill="#2652E4"></path>
+                                                                    <path d="M103.4 104.8C103.6 104.8 103.7 104.9 103.9 105C104.1 103 104 101.1 103.7 99.2C103.6 98.4 102.5 97.6 101.7 97.4C92.1 95.1 82.3999 92.9 72.6999 90.8C71.9999 90.7 70.8 91.3 70.4 91.9C69.5 93.4 68.6 95 67.8 96.7C79.6 99.3 91.4999 102 103.4 104.8ZM32.7999 60.5C34.0999 59.8 35.4 59.1 36.7 58.4C37.3 58 37.9999 56.8 37.7999 56.1C35.6999 46.4 33.5 36.8 31.2 27.1C31 26.3 30.2 25.2 29.4 25.1C27.9 24.8 26.3 24.7 24.7 24.8C27.5 36.6 30.1999 48.5 32.7999 60.5Z" fill="#BDE5EC"></path>
+                                                                    <path d="M72.63 33.4004L74.3974 32.0356L87.6999 36.2064C88.0641 36.3196 88.4815 36.245 88.7839 36.0126L95.3877 30.9129C96.4528 30.0903 97.9201 30.2788 98.7428 31.344C99.565 32.4087 99.3774 33.8715 98.3116 34.6991L91.7744 39.7475C91.473 39.9826 91.2964 40.3692 91.3157 40.751L91.9682 54.6966L90.1934 56.0672L87.9251 44.8981C87.764 44.1055 86.6608 43.6955 86.0211 44.1905L77.8459 50.5037C77.5336 50.7456 77.3547 51.1499 77.3858 51.5437L77.5515 53.7532L75.6843 55.1952L74.435 50.6882C74.3525 50.3913 74.1503 50.1295 73.8839 49.9746L69.8364 47.6227L71.7 46.1835L73.8166 46.9218C74.1912 47.052 74.6295 46.98 74.9428 46.7368L83.0832 40.4091C83.7207 39.9138 83.601 38.7465 82.8763 38.3908L72.63 33.4004Z" fill="black"></path>
+                                                                </svg>
+                                                            </div>
+                                                            <div class="header-contact-detail">
+                                                                <p class="contact-header">Call Us Toll-Free 24/7</p>
+                                                                <p class="contact-info-header">+1-888-864-3033</p>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <!-- end main-menu-content -->
+                                        <div class="nav-btn">
+                                            <a href="index.htm" class="theme-btn">login</a>
+                                        </div>
+                                        <!-- end nav-btn -->
+                                    </div>
+                                    <!-- end menu-wrapper -->
+                                </div>
+                                <!-- end col-lg-12 -->
+                            </div>
+                            <!-- end row -->
+                        </div>
+                        <!-- end container-fluid -->
+                    </div>
+                    <!-- end header-menu-wrapper -->
+                </header>
+                <!-- call btn  -->
+                <div class="call_to_action call_ac_af_be" onclick="OpenCallModal();">
+                    <div class="call_to_action_top">
+                        <img height="64" src="static/img/callback/callback-hover.png" class="callback__image">
+                        <div class="call_to_action_contant">
+                            <span>Call Us to Get Deals </span>
+                            <span class="text">&nbsp;up to $300&nbsp;</span>
+                            <div>lower than online</div>
+                        </div>
+                    </div>
+                    <button>
+                        <svg class="icon-phone" viewbox="0 0 21 21" width="1em" height="1em" fill="currentColor">
+                            <path d="M20.4,16.5c0-0.2-0.4-0.4-1.1-0.8 c-0.5-0.3-1.1-0.6-1.7-0.9l-0.8-0.4l-0.4-0.2 c-0.2-0.1-0.4-0.2-0.5-0.3c-0.1-0.1-0.3-0.1-0.4-0.1c-0.2,0-0.4,0.1-0.7,0.4 c-0.3,0.3-0.5,0.6-0.8,0.9s-0.5,0.6-0.8,0.9 c-0.3,0.3-0.5,0.4-0.6,0.4c-0.1,0-0.2,0-0.3-0.1c-0.3-0.1-0.6-0.3-0.9-0.5 c-1.2-0.7-2.3-1.5-3.3-2.5c-1.1-1.1-1.9-2.3-2.6-3.6 c-0.1-0.2-0.2-0.4-0.3-0.6c0-0.1-0.1-0.2-0.1-0.3c0-0.2,0.1-0.4,0.4-0.7 c0.3-0.3,0.6-0.5,0.9-0.8c0.3-0.2,0.6-0.5,0.9-0.8 c0.3-0.3,0.4-0.5,0.4-0.7c0-0.1,0-0.3-0.1-0.4c-0.1-0.1-0.2-0.3-0.3-0.5 l-0.2-0.4c-0.3-0.5-0.6-1.1-0.9-1.7l-0.4-0.8 c-0.3-0.7-0.6-1-0.8-1.1c-0.1,0-0.2,0-0.3,0c-0.7,0-1.3,0.2-2,0.4 c-0.5,0.2-1,0.8-1.5,1.7c-0.6,1-0.8,2.2-0.7,3.4 c0,0.2,0.1,0.5,0.2,0.8c0.1,0.5,0.3,1,0.5,1.5l0.2,0.7 c0.3,0.9,0.7,1.8,1.2,2.5c0.9,1.4,1.9,2.6,3.1,3.8c1.3,1.3,2.5,2.3,3.8,3.1 c0.7,0.5,1.5,0.8,2.5,1.2c0.5,0.2,1,0.3,1.5,0.5c0.5,0.2,1,0.3,1.5,0.4 c1.2,0.1,2.4-0.1,3.4-0.7c1-0.5,1.5-1,1.7-1.5 C20.3,18,20.5,17.3,20.4,16.5L20.4,16.5z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <!-- call modal -->
+                <!-- Button trigger modal -->
+                <!-- Modal -->
+                <div class="modal-backdrop" id="pnlCallingModal" style="display: none;">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content call_us_modal">
+                            <div class="modal-header">
+                                <button type="button" class="close" onclick="CloseCallModal();"><span aria-hidden="true">×</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="context_modal_call">
+                                    <div class="modal_call_box">
+                                        <img src="static/img/callback/callback-staff.jpg" class="callback__image"><div class="modal_call_top_text">Want airfares up to $300 lower than online?</div>
+                                        <div class="modal_call_small" data-qa-callback-text="2">We have thousands of lower unpublished deals that we cannot display online as those are restricted by airlines for offline sale only. Call our travel expert for</div>
+                                        <div class="modal_call_small2">Phone special super deals</div>
+                                        <div class="context__Phonemodal_call">
+                                            <a class="" href="tel:+18888643033">
+                                                <svg class="text-normal" viewbox="0 0 21 21" width="1em" height="1em" fill="currentColor">
+                                                    <path d="M20.4,16.5c0-0.2-0.4-0.4-1.1-0.8 c-0.5-0.3-1.1-0.6-1.7-0.9l-0.8-0.4l-0.4-0.2 c-0.2-0.1-0.4-0.2-0.5-0.3c-0.1-0.1-0.3-0.1-0.4-0.1c-0.2,0-0.4,0.1-0.7,0.4 c-0.3,0.3-0.5,0.6-0.8,0.9s-0.5,0.6-0.8,0.9 c-0.3,0.3-0.5,0.4-0.6,0.4c-0.1,0-0.2,0-0.3-0.1c-0.3-0.1-0.6-0.3-0.9-0.5 c-1.2-0.7-2.3-1.5-3.3-2.5c-1.1-1.1-1.9-2.3-2.6-3.6 c-0.1-0.2-0.2-0.4-0.3-0.6c0-0.1-0.1-0.2-0.1-0.3c0-0.2,0.1-0.4,0.4-0.7 c0.3-0.3,0.6-0.5,0.9-0.8c0.3-0.2,0.6-0.5,0.9-0.8 c0.3-0.3,0.4-0.5,0.4-0.7c0-0.1,0-0.3-0.1-0.4c-0.1-0.1-0.2-0.3-0.3-0.5 l-0.2-0.4c-0.3-0.5-0.6-1.1-0.9-1.7l-0.4-0.8 c-0.3-0.7-0.6-1-0.8-1.1c-0.1,0-0.2,0-0.3,0c-0.7,0-1.3,0.2-2,0.4 c-0.5,0.2-1,0.8-1.5,1.7c-0.6,1-0.8,2.2-0.7,3.4 c0,0.2,0.1,0.5,0.2,0.8c0.1,0.5,0.3,1,0.5,1.5l0.2,0.7 c0.3,0.9,0.7,1.8,1.2,2.5c0.9,1.4,1.9,2.6,3.1,3.8c1.3,1.3,2.5,2.3,3.8,3.1 c0.7,0.5,1.5,0.8,2.5,1.2c0.5,0.2,1,0.3,1.5,0.5c0.5,0.2,1,0.3,1.5,0.4 c1.2,0.1,2.4-0.1,3.4-0.7c1-0.5,1.5-1,1.7-1.5 C20.3,18,20.5,17.3,20.4,16.5L20.4,16.5z"></path></svg>
+                                                +1-888-864-3033 </a>
+                                            <div class="modal_call_us">Call Us Toll-Free</div>
+                                        </div>
+                                        <div class="modal_call_buttom" style="font-size: 16px; margin-bottom: 36px;">Free instant quotes | Live in 5 seconds</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+<div class="container">
+    <div class="col-md-12">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div _nghost-inh-c4="">
+            <section id="terms-and-conditions">
+                <div class="container">
+                    <h1 class="hero-text">Terms &amp; Conditions </h1>
+                </div>
+            </section>
+            <!---->
+            <!---->
+            <br>
+            <section id="travel-products">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Frequently Asked Questions </h4>
+                            <p class="par-sub-text">For  frequently asked questions, help and support  please visit our  support center </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Purchase &amp; Confirmation of Travel Products </h4>
+                            <p class="par-sub-text">When you make a booking request for a Flight "Travel Product",
+                                <!---->
+                                <span>Flightofox</span> will send a "Booking Request" via airlines reservations systems for your flights to the airlines. "<!----><span>Flightofox</span>"  then processes your request and sends you a confirmation email when the booking is confirmed (e.g., when an itinerary has been ticketed). The "Booking Confirmation Email" is not a confirmation of tickets though. Note that the fares and availability of your booking request may change during the time we process your booking request. Your reservation is not confirmed and your purchase is not completed until "<!----><span>Flightofox</span>" sends you an electronic confirmation "E-ticket". </p>
+                            <p class="par-sub-text">In some cases "<!----><span>Flightofox</span>" may determine that it is unable to confirm your flight booking tickets. Reason being:</p>
+                            <ul class="list-items">
+                                <li>Changes in Fare</li>
+                                <li>Availability of flight</li>
+                                <li>Airline's failure to confirm the ticket booking request</li>
+                                <li>Incomplete or inaccurate payment information provided by customer</li>
+                                <li>Rejection of a method or mode of payment, concerns that the ticket booking request was unauthorized or fraudulent </li>
+                                <li>Other issues that may prohibit fulfillment of your flight ticket booking request. </li>
+                            </ul>
+                            <p class="par-sub-text">In any case,
+                                <!---->
+                                <span>Flightofox</span> will notify you. If "<!----><span>Flightofox</span>"  is unable to process your ticket booking request, we may suggest you an alternative Travel Product. You are, however, under no any obligation to purchase any such alternative. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="insurance">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Insurance</h4>
+                            <p class="par-sub-text">We encourage all the passengers to take out adequate travel insurance coverage to protect themselves against cancellation due to any illness prior to or during travel. In the event of a traveller becoming ill during a tour, all the hospital and medical expenses are to be paid by traveller and they shall not be entitled to any refund, either total or partial, of passage money paid. Check with your travel agent as to what conditions and charges apply if you cancel your flight or reservations. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="force-majeure">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Force Majeure</h4>
+                            <p class="par-sub-text">We shall not be liable for any claims, losses, damages, costs, expenses, delays or loss of the enjoyment, of any nature or kind whatsoever, resulting from events beyond our or a supplier’s reasonable control, including but not limited to the acts of God, lockouts, strikes or other labour disputes, wars, blockades, insurrections, riots, earthquakes, floods, weather conditions, or acts or restraints imposed by the government authorities. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="credit-card-billing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Credit Card Billing</h4>
+                            <p class="par-sub-text">Your credit card statement may show multiple charges in order to book and confirm your flight ticket booking, because credit card may have been billed in multiple charges not exceeding the total amount by us. Example - Airline charges (cost of the airline ticket) PLUS an additional flight ticket booking transaction service fees by "Flightofox" to process your E-ticket. All types of the service fees may change at any time and the most updated fees may not be reflected here.</p>
+                            <h5 class="mini-heading"><b>Ticket Policies, Rules and Restrictions</b></h5>
+                            <ul class="list-items">
+                                <li>Once purchased, most flight tickets are non-refundable and non-transferable. All the service fees are non-refundable.</li>
+                                <li>Name changes in ticket are not permitted. Prices do not include Baggage and Carry-On Fees or any other fees charged directly by the airline. </li>
+                                <li>Flight ticket fares are not guaranteed until ticketed. All the changes are subject to availability, additional fees, airlines rules and regulations. </li>
+                                <li>All travelers must confirm that their travel documents required are current, updated and valid for your destination. </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">AGREEMENT BETWEEN CONSUMER AND FLIGHTOFOX.CA INC FOR USE OF CREDIT/DEBIT CARD PAYMENTS</h4>
+                            <p class="par-sub-text">This Website is provided solely to assist it's customers in gathering travel information, determining the availability of travel—related goods and services, making legitimate reservations or otherwise transacting business with travel suppliers, and for no other purposes. Please read these Terms of Use carefully, as they contain important part of information about limitations of liability and resolution of disputes through arbitration rather than in court. By accessing or using this Website, booking any reservations for travel products or services, or contacting our call center agents, you agree that the Terms of Use then in force shall apply. If you do not agree to the Terms of Use, please do not use or book any reservations through this Website or through our call center agents. PAYMENTS AND USE OF THE WEBSITE</p>
+                            <ul class="list-items">
+                                <li>You possess the legal authority to create the binding legal obligation.</li>
+                                <li>You will use this Website in accordance with these Terms of Use;</li>
+                                <li>All credit cards or any other payment method must have a verifiable US, Canadian or other country billing address.</li>
+                                <li>When you submit your credit or debit card for the purchase, we request you an authorization for the amount of your anticipated transaction (placing a temporary "hold" on the funds). If for some reason we are unable to confirm your flight ticket booking, you will not be charged and we will request that such hold be released by your credit or debit card by bank; until then, funds subject to the hold will not be available to you for any other purposes.</li>
+                                <li>Paying with a credit/debit card for your travel services, you are in agreement that the charges will not be disputed with your bank for any reason including but not limited to "product not received" or "payment should have been refunded"., you will first contact us and resolve the matter without filing a dispute with your bank.</li>
+                                <li>You agree to be liable for any and all credit card payments and you agree not to dispute charges after the purchase has been made and your tickets and/or other products have been delivered you by email confirmation. You agree to reimburse Flightofox in cases of charge back or credit / Debit card disputes where you have genuinely purchased a service on our website.</li>
+                                <li>If any dispute is filed with your credit/debit card issuing banks, then you are in breach of our "Terms and conditions" of use.</li>
+                                <li>Most credit / debit card transactions over the phone to our Customer Service Department are recorded and are available as evidence in case of any dispute.</li>
+                                <li>Online credit / debit card transactions are authorized at the time a user or anyone acting on their behalf accepts these Terms &amp; Conditions and continues with the purchase.</li>
+                                <li>When certain transactions are determined to be high risk by our systems, we will not process such transactions unless our credit / debit card verification team has determined that it's safe to process them. In order to establish this type of transactions, we may contact you or your bank.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr style="width: 80%; border-top: 1px solid #f7931e;">
+            <section id="baggage">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="text-left">Useful Information for Travelers</h2>
+                            <h4 class="sub-heading">Baggage Rules &amp; Fees </h4>
+                            <p class="par-sub-text">Additional baggage fees may apply. For more information, click here: Baggage and Carry-On Fees. Since the baggage fees may change, we recommend that you contact with the airline you are traveling on for the latest information regarding airline specific baggage rules, requirements and fees. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="seats">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Seats</h4>
+                            <p class="par-sub-text">If you have requested a seat to be assigned, we will send your request to book a seat to the airline. Requested Airline may or may not be able to confirm your request. At the time airlines may not be able to assign specific seats or seats sitting together. Occasionally reservation seats can be assigned only at the check-in counter at the airport.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="cancellation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Cancellation of Flights</h4>
+                            <p class="par-sub-text">Most airline reservation tickets are 100% non-refundable and non-transferable. In certain cases where the airline may allow cancellations, we will be only able to process refunds less Airline penalties. Please call or email us to find out the penalties. Flight Ticket cancellations/refunds must be processed prior to the scheduled departure time of the first flight segment by calling our customer service center. Incase of NO-SHOW tickets is 100% non-refundable.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="voluntary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Voluntary Flight Changes </h4>
+                            <p class="par-sub-text">Although the most itineraries / tickets allow changes, as per airline policy - the majority of these airline itinerary changes require the issuance of a new ticket. All the changes are subject to availability, airline rules and regulations, penalties and a difference from the original airfare and our service fees. The airline has the final authority regarding the reservation itinerary changes and penalties.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="voluntary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Involuntary Changes (Changes done directly by the airline) </h4>
+                            <p class="par-sub-text">Airlines may make changes to a scheduled flight itinerary that is beyond of our control. In these type of cases, if an airline system notifies us with a viable option for you, we will notify you with the changes as well as the option the airline is offering. If the airline does not provide us any viable option, as a valued customer, your flight ticket reservation will be reviewed and assisted by one of our Schedule Change Specialists.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Refund-timelines">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Refund timelines </h4>
+                            <p class="par-sub-text">
+                                <!---->
+                                <span>Flightofox</span> may take up to 3 weeks or more to process your refund wit your payment method depending upon airline terms and conditions for refunds. Once your refund is processed, your financial institution may take up to 10 business days to post the credit to your account, and in some cases it takes upto 2 billing cycles on your statement to show the credit information. </p>
+                            <p class="par-sub-text">Your refund will be processed to your original method(s) / mode of payment </p>
+                            <p class="par-sub-text">Your
+                                <!---->
+                                <span>Flightofox</span> refund receipt email contains details about your refund amount, how, and when you'll get your refund. </p>
+                            <p class="par-sub-text">If your credit / debit card statement includes a charge from a third party (e.g., a low-cost airline, other suppliers), you will receive your refund from that third party, not
+                                <!---->
+                                <span>Flightofox</span>. Please contact the respective third party regarding refund timelines and related questions. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="travel-protection">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Travel Protection Plan </h4>
+                            <p class="par-sub-text">If you have not already purchased any Travel Protection Plan, we recommend you to purchase our Travel Protection Plan. The coverage of the protection plan you have purchased will only cover the arrangements booked through the website in which you have purchased your protection plan. You should review detailed rules on the protection plan by reading the complete Description of protection Coverage.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="valid-photo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Valid Photo ID</h4>
+                            <p class="par-sub-text">A valid government approved photo I.D. must be presented by all travelers in order to board a flight. Minors traveling domestically with parents generally do not need any photo I.D. If traveling with children less than two (2) years old, a birth certificate may be needed to confirm the infant's age. More information </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="domestic-flights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Domestic Flights (within United States)  Checking in </h4>
+                            <ul class="list-items">
+                                <li>It is recommended that you should check-in at least three (3) hours prior to the scheduled flight departure time for International flights. </li>
+                                <li>Please allow extra time if traveling with the children or need assistance for boarding the aircraft </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="international-flights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Checking in for International Flights </h4>
+                            <ul class="list-items">
+                                <li>It is recommended that you check-in at least three (3) hours prior to the scheduled flight departure time </li>
+                                <li>Please allow extra time if traveling with the children or need assistance for boarding the aircraft </li>
+                                <li>NOTE: The airlines reserves the right to deny the boarding to passengers that do not arrive at the Ticket Counter or Departure Gate with adequate time to check-in. Check-in times can be vary for certain cities and airlines, so it’s recommended that you confirm the timing with the airline you are flying. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="passport-visas">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Passport / Visas</h4>
+                            <p class="par-sub-text">For international travel, all passengers must be in possession of valid travel documents such as tickets, passport, visas, transit visas, Schengen Visas and all other entry permits to board a flight. Your passport must be valid for 6 months from your return date. It is solely the responsibility of the passenger(s) to arrange for all the documents needed to enter the country you are traveling to, or passing through the in transit. Please note, a roundtrip or ongoing ticket may be required for certain international cities. If you are traveling one-way, please verify with the airline or Consulate General to prevent any issues at time of flight boarding. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="operated">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Operated by... (Flight number/details) </h4>
+                            <p class="par-sub-text">Please note that your flight booking itinerary may consist of flights that are operated by what is called a “CodeShare” partner of the airline on which you are traveling. It is for this reason we advise you to make sure that you check-in and board to your flight at the corresponding airline’s terminal without any failure. For example – The flight number on your ticket booking itinerary may indicate a United Airlines flight number but in fact this flight may be “Operated by Air Canada" in which case you are required to check-in at the Air Canada ticket counter and the boarding process will be the corresponding Air Canada gate. The same would be likewise for other airlines too. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="fare-changes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Fare Changes</h4>
+                            <p class="par-sub-text">Prior to the ticketing, all fares are subject to change. In these type of rare cases, we reserve the right to notify you of any rule or fare change within three (3) business days. As a courtesy to our valued customers, we will absorb the difference of the ticket fare up to $25.00 per passenger. In the event that the ticket fare difference is higher than $25.00, you will have the option to not purchase this ticket and your credit card will not be charged.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="flight-details">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="sub-heading">Up-to-the-Minute Flight Details </h4>
+                            <p class="par-sub-text">Check the details of your ticket booking information or itinerary, E-ticket status by visiting our Check My Booking page. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---->
+            <br>
+        </div>
+    </div>
+</div>
+
+            <div> 
+                <section class="footer-area section-bg" style="padding-top: 40px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 responsive-column">
+                                <div class="footer-item">
+                                    <div class="footer-logo">
+                                        <a href="index.htm" class="foot__logo">
+                                            <img src="Content/Assets/images/logoflight.png" alt="logo">
+                                        </a>
+                                    </div>
+                                    <!-- end logo -->
+                                    <p class="mt-2">Flightofox.ca deals in Flight Reservation, Air fares & Packages. We offer the most suitable flights & affordable tickets to our customers.
+flightofox.ca provides travel arrangements like Flight booking One-way or Round trip, Packages where we have fare incl. all fuel surcharges, taxes & our service fees. 
+									</p>
+                                </div>
+                                <!-- end footer-item -->
+                            </div>
+                            <!-- end col-lg-3 -->
+                            <div class="col-lg-2 responsive-column">
+                                <div class="footer-item">
+                                    <h4 class="title curve-shape pb-3 margin-bottom-5px" style="text-decoration: underline;">Our Company</h4>
+                                    <ul class="list-items list--items">
+                                        <li>- <a href="index.htm">Flights</a></li>
+                                        <li>- <a href="airline-baggage-fees.html">Airline Baggage Fees</a></li>
+                                        
+                                        <li>- <a href="taxes-fee.html">Taxes &amp; Fee</a></li>
+                                        <li>- <a href="our-services-fees.html">Our Services Fees</a></li>
+                                        <li>- <a href="client-testimonial.html">Client Testimonial</a></li>
+                                       
+                                    </ul>
+                                </div>
+                                <!-- end footer-item -->
+                            </div>
+                            <!-- end col-lg-3 -->
+                            <div class="col-lg-2 responsive-column">
+                                <div class="footer-item">
+                                    <h4 class="title curve-shape pb-3 margin-bottom-5px" style="text-decoration: underline;">Contact Us</h4>
+                                    <ul class="list-items list--items">
+                                        <li>- <a href="refund-and-cancelation-policy.html">Cancellation Policy</a></li>
+                                        <li>- <a href="privacy-policy.html">Privacy Policy</a></li>
+                                        
+                                        <li>- <a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+                                        <li>- <a href="faq.html">Faq</a></li>
+										 <li>- <a href="index.htm">Travel Blog</a></li>
+                                        <li>- <a href="disclaimer.html">Disclaimer</a></li>
+                                    </ul>
+                                   
+                                </div>
+                                <!-- end footer-item -->
+                            </div>
+                            <!-- end col-lg-3 -->
+							 <div class="col-lg-3 responsive-column">
+                                <div class="footer-item">
+                                    <h4 class="title curve-shape pb-3 margin-bottom-5px" style="text-decoration: underline;">Address</h4>
+                                   
+                                    <ul class="list-items pt-0">
+                                         
+                                        <li>186 Broadway, Welland, ON, L3C0J2</li>
+                                        
+                                        <li><a href="tel:+18888643033">+1-888-864-3033</a></li>
+                                        <li><a href="mailto:admin@flightofox.ca">admin@flightofox.ca</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end footer-item -->
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- end container -->
+                    <div class="section-block mt-4"></div>
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3">
+                                <div class="copy-right padding-top-30px">
+                                    <p class="copy__desc">© Copyright FlightOFox 2022. </p>
+                                </div>
+                                <!-- end copy-right -->
+                            </div>
+                            <!-- end col-lg-7 -->
+                            <div class="col-lg-9">
+                                <div class="copy-right-content d-flex align-items-center justify-content-end padding-top-30px">
+                                    <h3 class="title font-size-15 pr-2"> </h3>
+                                    <div class="f_payment">
+                                        <img src="Content/Assets/images/footericons.png" width="700" alt="Payment Accepted">
+
+                                    </div>
+                                </div>
+                                <!-- end copy-right-content -->
+                            </div>
+                            <!-- end col-lg-5 -->
+                        </div>
+                        <!-- end row -->
+                    </div>
+                    <!-- end container -->
+                    <div style="text-align:center;font-size: 10px;line-height: 11px;padding: 8px 9%; margin-top:5px;">The information, photographs, pictures, products, services and other materials contained and/or displayed herein (the “Content”) is for reference only and shall not form part of any offer, contract, representation or warranty expressly or impliedly. We reserves the right to make changes, corrections, cancellations and/or improvements to the Content, and the products, services and programs described therein at any time and from time to time without notice, including after confirmation of a transaction. We does not warrant or represent that the Content here is complete and accurate, or that the information is up to date, and it accepts no liability for any loss or damage howsoever arising from or in reliance upon the Content of this site (or any third-party sites accessed via this site). The Content contained herein was compiled in good faith, but it should not be construed as forming part of any contract or any pre-contractual representation of fact or otherwise and would-be licensee/staying guests and readers are responsible for satisfying themselves, whether by inspection or other means, as to the accuracy of any specifications or information given.</div>
+  </section>
+                <!-- end footer-area -->
+            </div>
+        </div>
+    </div>
+    <script src="Content/Assets/js/bootstrap-notify.js"></script>
+    <script src="Content/Assets/js/MyValidator.js"></script>
+    <script src="Content/Assets/js/home.js"></script>
+    <script src="Content/Assets/js/SearchEngine.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCy7becgYuLwns3uumNm6WdBYkBpLfy44k"></script>
+    
+</body>
+</html>
